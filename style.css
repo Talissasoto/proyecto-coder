@@ -1,0 +1,248 @@
+
+*{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Advent Pro', sans-serif;
+    
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    
+    /*logo centrado header*/
+    
+    
+    .logo{
+        width: 100%;
+        background: #bf9f84;  
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        
+    }
+    .logo img{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .navegacion{
+        width: 100%;
+        background: #eacda3;  
+        background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  
+        background: linear-gradient(to right, #d6ae7b, #eacda3); 
+        display: flex;
+        justify-content: center;
+    }
+
+    /*menu*/
+
+    .menu{
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 90px;
+    }
+    
+    .menu li{
+        flex-basis: 0;
+        flex-grow: 1;
+        /*gradiente*/
+        background: #eacda3;  
+        background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  
+        background: linear-gradient(to right, #d6ae7b, #eacda3); 
+        position: relative;
+    }
+    
+    .menu .first-item{
+        /*gradiente*/
+        background: #eacda3;  
+        background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);
+        background: linear-gradient(to right, #d6ae7b, #eacda3); 
+    }
+    
+    .menu li a{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+    
+    .menu .imagen{
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+        width: 0%;
+        z-index: 20;
+    
+        -webkit-transition: all 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950); 
+    -moz-transition: all 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950); 
+        -o-transition: all 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950); 
+            transition: all 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+    
+    -webkit-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950); 
+    -moz-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950); 
+        -o-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950); 
+            transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+    
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.51);
+    }
+    
+    .menu li a .text-item{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        top: 0%;
+        position: absolute;
+        z-index: 10;
+    
+        -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+    -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+        -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+            transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */
+    
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+        -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); 
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275); /* easeOutBack */
+    }
+    
+    .menu li a .down-item{
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        /*gradiente*/
+        background: #eacda3;  
+        background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  
+        background: linear-gradient(to right, #d6ae7b, #eacda3); 
+        -webkit-transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+    -moz-transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+        -o-transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+            transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+    
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+    -moz-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+        -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+            transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+    }
+    
+    .menu li:hover .down-item, .menu li:hover .text-item{
+        top: 100%;
+        height: 115%;
+    }
+    
+    .menu li:hover .imagen{
+        width: 100%;
+        right: 0px;
+    }
+    /*texto body*/
+    .titulo {
+        text-align: center;
+        color: #000000 ;
+    }
+    .subtitulo {
+        text-align: center;
+        color: #000000;
+    }
+    /*index*/
+.contenedor{
+        background-color: #eedfd3;
+        overflow: auto;
+        height: 500px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contenedor img{
+        -webkit-transition: all 1s ease;
+        -moz-transition: -webkit-transition: all 1s ease;
+    }
+    .contenedor img:hover{
+        height: 100%;
+        width: 100%;
+    }
+
+    /*pagina contacto*/
+body{
+    background-color: #eedfd3;
+    margin:0;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background-color:#978f88 ;
+    padding: 10px 30px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    }
+
+h2{
+    color: #000;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #fff;
+    color: #000 ;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+    
+
+
