@@ -7,7 +7,7 @@
 
 body {
     /* background-color: #ecf0f1; */
-    background: radial-gradient(#eedfd3 3px, transparent 4px), radial-gradient(rgb(248, 226, 194) 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #e4e0e0 75px, #e4e0e0 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #e4e0e0 76px, #e4e0e0 77px, transparent 78px, transparent 109px), #fff;
+    background:  #fff;
     background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     color: #000000;
@@ -122,4 +122,6 @@ body {
     .container .related-post {
         grid-column: 1/-1;
     }
+        }
 }
+
