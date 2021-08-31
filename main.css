@@ -11,7 +11,8 @@ body {
     background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     color: #000000;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
+    
 }
 
 /* HEADER */
@@ -21,6 +22,7 @@ body {
     font-size: 1.5em;
     color: #b6a79b;
     background-color:#eedfd3;
+    font-family: ad;
     }
 
 .header h2 {
@@ -123,5 +125,4 @@ body {
         grid-column: 1/-1;
     }
         }
-}
 

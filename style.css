@@ -1,5 +1,4 @@
-
-*{
+    *{
         margin: 0;
         padding: 0;
         -webkit-box-sizing: border-box;
@@ -156,7 +155,7 @@
     }
     
     .menu li:hover .imagen{
-        width: 100%;
+        width: 80%;
         right: 0px;
     }
     /*texto body*/
@@ -189,7 +188,7 @@
         width: 100%;
     }
 
-    /*pagina contacto*/
+/*pagina contacto*/
 body{
     background-color: #eedfd3;
     margin:0;
@@ -242,7 +241,6 @@ textarea{
         width: 100%;
     }
 }
-
     
 
 

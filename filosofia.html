@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+		<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+    <!--logo encabezado arriba de menu-->
+    <div class="logo">
+		<img src="./imagenes/minca.png" alt="logo">
+    </div>
+    <!--menu con imagenes, replantear imagenes-->
+	<nav class="navegacion">
+		<ul class="menu">
+			<li class="first-item">
+				<a href="./index.html">
+					<img src="./imagenes menu/blusa3.jpeg" alt="" class="imagen">
+					<span class="text-item">Home</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+			<li>
+				<a href="./sweaters.html">
+					<img src="./imagenes menu/Ramira-4-600x851.jpg" alt="" class="imagen">
+					<span class="text-item">Sweaters</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+			<li>
+				<a href="./accesorios.html">
+					<img src="./imagenes menu/Tapabocas-Cow-e1621604801839-600x840.jpg" alt="" class="imagen">
+					<span class="text-item">Accesorios</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+			<li>
+				<a href="./Indumentaria.html">
+					<img src="./imagenes menu/blusa2.jpeg" alt="" class="imagen">
+					<span class="text-item">Indumentaria</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+			<li>
+				<a href="./filosofia.html">
+					<img src="./imagenes menu/Ramira-4-600x851.jpg" alt="" class="imagen">
+					<span class="text-item">Filosofia</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+    <br>
+    <br>
+    <h1 class="titulo">Se parte del mundo Minca</h1> 
+    <h2 class="subtitulo">Nuestra historia</h2>
+    <br>
+	<br>
+	<div class="app">
+
+		<div class="cardList">
+		  <button class="cardList__btn btn btn--left">
+			<div class="icon">
+			  <svg>
+				<use xlink:href="#arrow-left"></use>
+			  </svg>
+			</div>
+		  </button>
+	  
+		  <div class="cards__wrapper">
+			<div class="card current--card">
+			  <div class="card__image">
+				<img src="./imagenes/foto1.jpg" alt="" />
+			  </div>
+			</div>
+	  
+			<div class="card next--card" >
+			  <div class="card__image">
+				<img src="./imagenes/foto2.jpg" alt=""/>
+			  </div>
+			</div>
+	  
+			<div class="card previous--card" >
+			  <div class="card__image">
+				<img src="./imagenes/foto3.jpg" alt=""  />
+			  </div>
+			</div>
+		  </div>
+	  
+		  <button class="cardList__btn btn btn--right">
+			<div class="icon">
+			  <svg>
+				<use xlink:href="#arrow-right"></use>
+			  </svg>
+			</div>
+		  </button>
+		</div>
+	  
+		<div class="infoList">
+		  <div class="info__wrapper">
+			<div class="info current--info">
+			  <h1 class="text name">¿Por que "Minca"?</h1>
+			  <h4 class="text location">Porque...</h4>
+			  <p class="text description">Minca es un lugar soñado, un pueblito pequeño en Colombia que te hace soñar y creer que todo es posible</p>
+			</div>
+	  
+			<div class="info next--info">
+			  <h1 class="text name">¿Quienes somos?</h1>
+			  <h4 class="text location">Tali y Sabri</h4>
+			  <p class="text description">Somos dos amigas que se unieron para emprender</p>
+			</div>
+	  
+			<div class="info previous--info">
+			  <h1 class="text name">¿De donde somos?</h1>
+			  <h4 class="text location">Quilmes</h4>
+			  <p class="text description">Buenos Aires</p>
+			</div>
+		  </div>
+		</div>
+	  
+	  
+		<div class="app__bg">
+		  <div class="app__bg__image current--image">
+			<img src="./imagenes/foto1.jpg" alt="" />
+		  </div>
+		  <div class="app__bg__image next--image">
+			<img src="./imagenes/foto2.jpg" alt="" />
+		  </div>
+		  <div class="app__bg__image previous--image">
+			<img src="./imagenes/foto3.jpg" alt="" />
+		  </div>
+		</div>
+	  </div>
+	  <div class="loading__wrapper">
+		<div class="loader--text">Queres conocernos?...</div>
+		<div class="loader">
+		  <span></span>
+		</div>
+	  </div>
+	  
+	    
+	  <svg class="icons" style="display: none;">
+		<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		  <polyline points='328 112 184 256 328 400'
+				 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+		<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		  <polyline points='184 112 328 256 184 400'
+				 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+	  </svg>
+
+</section>
+<script src="slider.js"></script>   
+</body>
+</html>
