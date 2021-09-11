@@ -22,7 +22,6 @@ body {
     font-size: 1.5em;
     color: #b6a79b;
     background-color:#eedfd3;
-    font-family: ad;
     }
 
 .header h2 {
@@ -90,27 +89,10 @@ body {
     margin-top: 5px;
 }
 
-.container>.related-post {
-    background: #e4e0e0;
-    color: #000;
-    height: 180px;
-    ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease;
-}
-
-
-.container>.related-post:hover {
-    cursor: pointer;
-    color: #000000;
-    background: #ffffff;
-}
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
     .header {
         text-align: center;
     }

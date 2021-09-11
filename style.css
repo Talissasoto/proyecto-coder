@@ -22,6 +22,9 @@
     img{
         max-width: 100%;
     }
+    h1{
+        color: #b6a79b;
+    }
     
     /*logo centrado header*/
     
@@ -158,35 +161,59 @@
         width: 80%;
         right: 0px;
     }
+    .menu-toggle{
+   
+        padding: 1em;
+        position: absolute;
+        top: .5em;
+        right: .5em;
+        
+    }
+
+    
     /*texto body*/
     .titulo {
         text-align: center;
-        color: #000000 ;
+        color: #b6a79b ;
     }
     .subtitulo {
         text-align: center;
-        color: #000000;
+        color: #b6a79b;
     }
-    /*index*/
-.contenedor{
-        background-color: #eedfd3;
-        overflow: auto;
-        height: 500px;
-        padding: 20px;
+    /*Prendas inferiores*/
+    .contenedor{
+        width: 1100px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 130px;
         align-items: center;
+
     }
+    
     .contenedor img{
-        -webkit-transition: all 1s ease;
-        -moz-transition: -webkit-transition: all 1s ease;
+        max-width: 350px;
+        transform-origin: center;
+        transform: perspective(800px) rotateY(20deg);
+        transition: 0.5s;
+        -webkit-box-reflect: below 1px linear-gradient (transparent, transparent #0004);
+    }
+
+    .contenedor:hover img{
+        opacity: 0.1;
     }
     .contenedor img:hover{
-        height: 100%;
-        width: 100%;
+        transform: perspective(800px) rotateY(0deg);
+        opacity: 1;
     }
+
+    
+/*footer*/
+.footer{
+grid-column: 1/-1;
+background-color: #eedfd3;
+color: #000;
+text-align: center;
+}
 
 /*pagina contacto*/
 body{
@@ -204,7 +231,7 @@ form{
     }
 
 h2{
-    color: #000;
+    color: #b6a79b;
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -236,7 +263,7 @@ textarea{
     cursor: pointer;
 }
 
-@media (max-width:480px){
+@media (max-width:360px){
     form{
         width: 100%;
     }
