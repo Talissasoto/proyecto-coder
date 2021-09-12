@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="keywords" content="indumentaria, accesorios, ropa, mujer">
 	<meta name="description" content="Bienvenidos a la tienda online de Minca, somos una marca de indumentaria y accesorios femeninos.">
     <title>Minca</title>
 	<!--bootstrap-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
         
 		<!--fuente-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,35 +32,35 @@
 		<ul class="menu">
 			<li class="first-item">
 				<a href="./index.html">
-					<img src="./imagenes/vestido4.jpg" alt="" class="imagen">
+					<img src="./imagenes/Minka (36 de 47).jpg" alt="" class="imagen">
 					<span class="text-item">Home</span>
 					<span class="down-item"></span>
 				</a>
 			</li>
 			<li>
 				<a href="./Indumentaria.html">
-					<img src="./imagenes/las3.jpg" alt="" class="imagen">
+					<img src="./imagenes/Minka (37 de 47).jpg" alt="" class="imagen">
 					<span class="text-item">Prendas Inferiores</span>
 					<span class="down-item"></span>
 				</a>
 			</li>
 			<li>
 				<a href="./accesorios.html">
-					<img src="./imagenes/aritos2.jpg" alt="" class="imagen">
+					<img src="./imagenes/Minka (25 de 47).jpg" alt="" class="imagen">
 					<span class="text-item">Accesorios</span>
 					<span class="down-item"></span>
 				</a>
 			</li>
 			<li>
 				<a href="./prendasSuperiores.html">
-					<img src="./imagenes/las3.jpg" alt="" class="imagen">
+					<img src="./imagenes/las3hor.jpg" alt="" class="imagen">
 					<span class="text-item">Prendas Superiores</span>
 					<span class="down-item"></span>
 				</a>
 			</li>
 			<li>
 				<a href="./filosofia.html">
-					<img src="./imagenes/trabajando.jpg" alt="" class="imagen">
+					<img src="./imagenes/Minka (13 de 47).jpg" alt="" class="imagen">
 					<span class="text-item">Filosofia</span>
 					<span class="down-item"></span>
 				</a>
@@ -82,27 +83,28 @@
         </header>
         <main class="content">
 <!--slider-->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
 	  <div class="carousel-item active">
-		<img src="./imagenes/vestido2.jpg" class="d-block w-100" alt="...">
+		<img class="d-block w-100" src="./imagenes/Minka (10 de 47).jpg" alt="First slide">
 	  </div>
 	  <div class="carousel-item">
-		<img src="./imagenes/camisa1.jpg" class="d-block w-100" alt="...">
+		<img class="d-block w-100" src="./imagenes/Minka (22 de 47).jpg" alt="Second slide">
 	  </div>
 	  <div class="carousel-item">
-		<img src="./imagenes/caballo1.jpg" class="d-block w-100" alt="...">
+		<img class="d-block w-100" src="./imagenes/Minka (27 de 47).jpg" alt="Third slide">
 	  </div>
 	</div>
-	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	  <span class="visually-hidden">Anterior</span>
-	</button>
-	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	  <span class="sr-only"></span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	  <span class="visually-hidden">Siguiente</span>
-	</button>
+	  <span class="sr-only"></span>
+	</a>
   </div>
+  
 <!--informacion-->
             <article class="article">
                 <h1>Sobre Minca</h1>
@@ -126,14 +128,14 @@
 <!--menu lateral-->
 			<aside class="sidebar">
 				<div>
-					<img src="./imagenes/babucha.jpg" alt="Blusa" >
+					<img src="./imagenes/las3vertical.jpg" alt="Blusa" >
 					
 				</article>
 				<div>
-					<img src="./imagenes/camisa2.jpg" alt="Camisa" >
+					<img src="./imagenes/vestidover.jpg" alt="Camisa" >
 				</article>
 				<div>
-					<img src="./imagenes/biker.jpg" alt="Top" >
+					<img src="./imagenes/Minka (42 de 47).jpg" alt="Top" >
 				</article>
 			</aside>
 
@@ -143,7 +145,8 @@
         </footer>
 
     </div>
- 
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
